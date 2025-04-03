@@ -5,16 +5,12 @@
 # ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement
 
 
-📄 [Paper](https://arxiv.org/abs/) | 🌐 [Project-Page](https://illume-unified-mllm.github.io/) | 💻 [Github](https://github.com/illume-unified-mllm/ILLUME_plus)
+📄 [Paper](https://arxiv.org/abs/2504.01934) | 🌐 [Project-Page](https://illume-unified-mllm.github.io/) | 💻 [Github](https://github.com/illume-unified-mllm/ILLUME_plus)
 
 </div>
 
 Welcome to the official repository for our paper: "ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement"
 
-
-<div align="center">
-  <img src="static/images/framework.png" width=100%></img>
-</div>
 
 ## Abstract
 We present ILLUME+ that leverages dual visual tokenization and a diffusion decoder to improve both deep semantic understanding and high-fidelity image generation. 
@@ -23,6 +19,9 @@ ILLUME+ follows a continuous-input, discrete-output scheme within the unified Mu
 ILLUME+ (3B) exhibits competitive performance against existing unified MLLMs and specialized models across multimodal understanding, generation, and editing benchmarks. 
 With its strong performance, ILLUME+ provides a scalable and versatile foundation for future multimodal applications. 
 
+<div align="center">
+  <img src="static/images/framework.png" width=100%></img>
+</div>
 ---
 
 ## TODO
@@ -48,4 +47,13 @@ With its strong performance, ILLUME+ provides a scalable and versatile foundatio
 ![alt text](static/images/vis_und.png)
 
 
+## Citation
+If you find our paper helpful, please consider citing our papers and staring us!
 
+
+    @article{huang2025illume_plus,
+      title={ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement},
+      author={Huang, Runhui and Wang, Chunwei and Yang, Junwei and Lu, Guansong and Yuan, Yunlong and Han, Jianhua and Hou, Lu and Zhang, Wei and Hong, Lanqing and Zhao, Hengshuang and Xu, Hang}
+      journal={arXiv preprint arXiv:2504.01934},
+      year={2025}
+    }
